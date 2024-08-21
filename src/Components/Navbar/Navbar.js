@@ -12,46 +12,45 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 function Navbar() {
   return (
     <>
-      <div className="navbar_Container ">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
+      <nav class="navbar navbar-expand-lg navbar_Container ">
+        <div class="container">
+          <a class="navbar-brand w-25" href="#">
             <div className="SocialMedia_icons">
               <FaFacebookF className="text-white facebook" />
               <FaInstagram className="text-white instagram" />
               <FaTwitter className="text-white twitter" />
               <FaLinkedinIn className="text-white linkedin" />
             </div>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarText"
-              aria-controls="navbarText"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex " id="navbarText">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active text-white"
-                    aria-current="page"
-                    href="#"
-                  >
-                    <BsFillTelephoneFill /> +245124586414
-                  </a>
-                </li>
-              </ul>
-              <span class="navbar-text text-white">My Account</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent2"
+            aria-controls="navbarSupportedContent2"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+            <ul class="navbar-nav mx-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#">
+                  <BsFillTelephoneFill /> +245124586414
+                </a>
+              </li>
+            </ul>
+            <div class="d-flex ">
+              <p class="mx-auto text-white" type="submit">
+                My Account
+              </p>
             </div>
           </div>
-        </nav>
-      </div>
-
-      <nav class="navbar navbar-expand-lg shadow">
-        <div className="container">
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+        <div class="container">
           <a class="navbar-brand w-25" href="#">
             <img
               src={require("../../assets/images/logo.png")}
@@ -63,18 +62,15 @@ function Navbar() {
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#navbarSupportedContent1"
+            aria-controls="navbarSupportedContent1"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse d-flex"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav mx-auto">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto text-center">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
                   Home
@@ -100,9 +96,10 @@ function Navbar() {
                 <a class="nav-link text-dark">Contact Us</a>
               </li>
             </ul>
-            <div class="d-flex" role="search">
-              <button class="btn" type="submit">
-                Enquiry <FaSearch />
+            <div class="d-flex ">
+              <button class="btn btn-outline-success mx-auto" type="submit">
+                Enquiry
+                <FaSearch />
               </button>
             </div>
           </div>

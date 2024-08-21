@@ -1,5 +1,5 @@
 import Feature from "./Components/Featured Categories/Feature";
-import Navbar from "./Components/Navbar/Navbar";
+import NavbarNav from "./Components/Navbar/Navbar";
 import Suggestedproducts from "./Components/Suggested Products/Suggestedproducts";
 import Treading from "./Components/Treading at Labnix/Treading";
 
@@ -10,7 +10,7 @@ import "./Components/App.css";
 function App() {
   return (
     <>
-      <Navbar />
+      <NavbarNav />
       <Feature />
       <Treading />
       <Suggestedproducts />

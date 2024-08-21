@@ -6,12 +6,12 @@ import { MDBCardLink } from "mdb-react-ui-kit";
 function Suggestedproducts() {
   return (
     <>
-      <div className="container mt-lg-3 ">
+      <div className="container mt-3 ">
         <h1 className="text-center">Suggested Products</h1>
 
         <div className="row mt-lg-5">
           <div className="col-lg-6">
-            <div class="card">
+            <div class="card text-center">
               <div class="row g-0 d-flex align-items-center">
                 <div class="col-md-4">
                   <img
@@ -68,7 +68,7 @@ function Suggestedproducts() {
               <div class="card-body">
                 <h6 class="card-title text-center">Melt Flow Indexer</h6>
 
-                <div className="d-flex">
+                <div className="d-flex mx-auto text-center">
                   <button href="#" class="card-link border-0 view_btn">
                     View
                   </button>

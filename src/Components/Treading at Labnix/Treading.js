@@ -8,7 +8,7 @@ function Trading() {
   return (
     <>
       <>
-        <div className="container mt-lg-3">
+        <div className="container mt-3">
           <h2 className="text-center">Treading At Labnix</h2>
         </div>
 
@@ -18,7 +18,7 @@ function Trading() {
               return (
                 <>
                   <div className="col-lg-4">
-                    <div class="card mb-3 p-lg-1">
+                    <div class="card mb-3 p-1 mx-auto text-center">
                       <div class="row g-0 d-flex align-items-center">
                         <div class="col-md-4">
                           <img
